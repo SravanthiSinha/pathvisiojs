@@ -1,5 +1,5 @@
 /* pathvisiojs 1.0.8
-Built on 2014-04-09
+Built on 2014-04-15
 https://github.com/wikipathways/pathvisiojs
 License: http://www.apache.org/licenses/LICENSE-2.0/ */
 
@@ -12,7 +12,7 @@ License: http://www.apache.org/licenses/LICENSE-2.0/ */
   height: inherit;
   min-height: inherit;
   max-height: inherit;
-  position: relative;
+  position: absolute;
 }
 
 .navigator .highlight{
@@ -134,12 +134,11 @@ License: http://www.apache.org/licenses/LICENSE-2.0/ */
   height: inherit;
   min-height: inherit;
   max-height: inherit;
-  position: absolute; 
   display: table-cell;
   vertical-align: middle
 }
 
-#diagram-container > * {
+#loading-icon {
   display: block;
   margin-left: auto;
   margin-right: auto
